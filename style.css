@@ -1,0 +1,189 @@
+
+
+body {
+    background-color:white;
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 0;
+}
+.contenedor-general {
+    background-color: black; 
+}
+header, footer {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+.imagen-container {
+    max-width: 100px; 
+    margin: 40px;
+}
+
+.imagen-container img {
+    width: 70%; 
+    height: 80%; 
+}
+
+.abajo p {
+    color: #ffffff; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+section.buscar {
+    margin-bottom: 20px;
+}
+
+section.buscar input[type="text"] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    color: #f0f0f0;
+    width: 300%; 
+    box-sizing: border-box; 
+    background-color: rgba(20, 20, 20, 0.5); 
+    border: none; 
+}
+
+section.buscar input[type="text"].img-buscador {
+    color: #f0f0f0;
+    width: 300%; 
+    box-sizing: border-box; 
+    background: url('Daco_4558254.png') no-repeat; 
+    background-size: contain; 
+    padding-left: 30px; 
+    background-color: rgba(20, 20, 20, 0.5); 
+    border: none; 
+
+
+    height: 200%; 
+    line-height: 200%; 
+
+    border-radius: 20px; 
+}
+
+section h2 {
+    color: #333;
+}
+
+.img img {
+    border-radius: 5%; 
+    display: block; 
+    max-width: 90%; 
+    height: auto; 
+    margin: 0 auto;
+}
+
+.img {
+    text-align: center; 
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.aplicacionesPequenias {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    background-color: #000000;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.aplicacionesPequenias img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+section.Fila1 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: flex-start;
+}
+
+.aplicacionesPequenias {
+    color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: calc(20% - 20px); 
+    margin: 2px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contenedor1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colorDiv {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #f0f0f0;
+    margin-right: 180px;
+}
+
+
+.colorDiv
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; 
+    color: #f0f0f0;
+    margin-right: 180px; 
+}
+
+.colorDiv2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f0f0f0;
+    margin-right: 50px; 
+    font-size: 40px;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 119, 255); 
+    background-color: rgba(20, 20, 20, 0.5); 
+    border: none; 
+    border-radius: 15px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+}
+
+.FilaDeRecursos {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.recursos {
+    color: #f0f0f0;
+    text-align: center;
+}
+
+.recursos img {
+    width: 60%; 
+    height: 60px; 
+}
+
+.recursos p {
+    margin-top: 5px; 
+}

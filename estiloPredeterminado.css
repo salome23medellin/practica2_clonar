@@ -1,0 +1,191 @@
+
+
+body {
+    background-color:white;
+    max-width: 800px; /* Puedes ajustar este valor según tus necesidades */
+    margin: 0 auto; /* Centra el contenido en la página */
+    padding: 0;
+}
+.contenedor-general {
+    background-color: black; /* Establece el fondo blanco para el contenedor general */
+}
+header, footer {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+.imagen-container {
+    max-width: 100px; /* Establece el tamaño máximo deseado */
+    margin: 40px;; /* Centra el contenedor */
+}
+
+.imagen-container img {
+    width: 60%; /* Hace que la imagen ocupe el 100% del contenedor */
+    height: 80%; /* Permite que la altura se ajuste proporcionalmente */
+}
+
+.abajo p {
+    color: #ffffff; /* Cambia el color del texto a blanco (#ffffff) */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+section.buscar {
+    margin-bottom: 20px;
+}
+
+section.buscar input[type="text"] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    color: #f0f0f0;
+    width: 300%; /* Establece el ancho según tus preferencias */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+    background-color: rgba(20, 20, 20, 0.5); /* Cambia este valor al color que desees */
+    border: none; /* Elimina el borde predeterminado */
+}
+
+section.buscar input[type="text"].img-buscador {
+    color: #f0f0f0;
+    width: 300%; /* Establece el ancho según tus preferencias */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+    background: url('Daco_4558254.png') no-repeat; /* Ruta de tu imagen como fondo */
+    background-size: contain; /* Ajusta el tamaño de la imagen según tus necesidades */
+    padding-left: 30px; /* Ajusta el espacio a la izquierda para la imagen */
+    background-color: rgba(20, 20, 20, 0.5); /* Cambia este valor al color que desees */
+    border: none; /* Elimina el borde predeterminado */
+
+
+    height: 200%; /* Establece la altura al 100% */
+    line-height: 200%; /* Centra el texto verticalmente */
+
+    border-radius: 20px; /* Establece el radio de las esquinas para que sean circulares */
+}
+
+
+section h2 {
+    color: #333;
+}
+
+.img img {
+    border-radius: 5%; /* Establece el valor de border-radius según tus necesidades */
+    display: block; /* Elimina cualquier espacio adicional debajo de la imagen */
+    max-width: 90%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
+    margin: 0 auto;
+}
+
+.img {
+    text-align: center; /* Centra la imagen dentro del contenedor */
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.aplicacionesPequenias {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    background-color: #000000;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.aplicacionesPequenias img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+section.Fila1 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Puedes ajustar esto según tus necesidades */
+    align-items: flex-start; /* Alinea los elementos en la parte superior de la fila */
+}
+
+.aplicacionesPequenias {
+    color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: calc(20% - 20px); /* Ajusta el ancho de cada elemento según tus necesidades */
+    /* Puedes ajustar también el espacio entre los elementos */
+    margin: 2px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contenedor1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colorDiv {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #f0f0f0;
+    margin-right: 180px;
+}
+
+
+.colorDiv
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; /* Puedes ajustar el peso según tus preferencias */
+    color: #f0f0f0;
+    margin-right: 180px; /* Ajusta el valor según la separación que desees */
+}
+
+.colorDiv2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f0f0f0;
+    margin-right: 50px; /* Ajusta el valor según la separación que desees */
+    font-size: 40px;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 119, 255); /* Cambia el color del texto a azul */
+    background-color: rgba(20, 20, 20, 0.5); /* Fondo negro transparente */
+    border: none; /* Elimina el borde predeterminado */
+    border-radius: 15px; /* Redondea los bordes, ajusta según sea necesario */
+    padding: 10px 20px; /* Ajusta el padding según tus preferencias */
+    cursor: pointer; /* Muestra el cursor como puntero al pasar el ratón sobre el botón */
+}
+
+.FilaDeRecursos {
+    display: flex;
+    justify-content: space-between; /* Ajusta esto según tus necesidades */
+    align-items: center; /* Ajusta esto según tus necesidades */
+}
+
+.recursos {
+    color: #f0f0f0;
+    text-align: center;
+}
+
+.recursos img {
+    width: 60%; /* Ajusta el ancho de las imágenes según tus necesidades */
+    height: 60px; /* Para mantener la proporción de la imagen */
+}
+
+.recursos p {
+    margin-top: 5px; /* Ajusta el espacio entre la imagen y el texto según tus necesidades */
+}
